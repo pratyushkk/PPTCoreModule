@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Absoulute, Relative, Sticky, Fixed</title>
+  </head>
+  <body>
+    <style>
+      /* This is an absolute element. */
+      .absolute {
+        border: 1px solid black;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+      }
+
+      /* This is a relative element. */
+      .relative {
+        border: 1px solid black;
+        position: relative;
+        top: 10px;
+        left: 10px;
+      }
+
+      /* This is a sticky element. */
+      .sticky {
+        border: 1px solid black;
+        position: sticky;
+        top: 10px;
+      }
+      /* This is a fixed element. */
+      .fixed {
+        border: 1px solid black;
+        position: fixed;
+        top: 10px;
+      }
+    </style>
+    <div class="absolute">This is an absolute element.</div>
+    <div class="relative">This is a relative element.</div>
+    <div class="sticky">This is a sticky element.</div>
+    <div class="fixed">This is a fixed div element.</div>
+  </body>
+</html>
